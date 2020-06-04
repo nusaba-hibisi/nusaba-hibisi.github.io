@@ -50,7 +50,7 @@ layout: post
         <a href="#!" class="image fit"><img src="{{ 'assets/images/IMG_20200604_152117.jpg' | relative_url }}" alt="煮込む" /></a>
       </div>
 </div>
-
+<br>
 ## 実食
 <div class="4u 12u$(mobile)">
       <div class="item">
