@@ -1,6 +1,5 @@
 ---
 layout: default
-comments: true
 ---
 {%- include header.html -%}
 
@@ -16,6 +15,7 @@ comments: true
 	    {{- content -}}
 	  </div>
 	</article>
+{% if site.disqus.shortname %}
+  {% include disqus_comments.html %}
+{% endif %}
 </div>
-<div id="disqus_thread"></div>
-<script>
